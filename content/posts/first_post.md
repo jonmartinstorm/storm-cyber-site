@@ -3,6 +3,10 @@ title: "My First Blog Post"
 date: 2023-04-08T23:00:59+02:00
 draft: false
 author: "JM Storm"
+tags: ["AI", "generate"]
+categories: ["Blog"]
+featuredImage: "https://cdn.midjourney.com/b0b81174-2e96-4f7d-89f7-54cf0772cf0d/grid_0.png"
+featuredImagePreview: "https://cdn.midjourney.com/b0b81174-2e96-4f7d-89f7-54cf0772cf0d/grid_0.png"
 ---
 
 This post is made by ChatGPT

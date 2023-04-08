@@ -74,7 +74,7 @@ paginate = 12
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
+      avatarURL = "https://cdn.midjourney.com/eadbfdee-f7d4-4e7d-8ddc-2a3d1c9e6bff/grid_0.png"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "[storm]"
       # subtitle shown in home page (HTML format is supported)
@@ -98,7 +98,7 @@ paginate = 12
       Linkedin = "xxxx"
     [params.page]
       # whether to enable lightgallery
-      lightgallery = true
+      lightgallery = false
     [params.page.share]
       enable = true
       Twitter = true
