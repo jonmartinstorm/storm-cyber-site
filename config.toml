@@ -1,6 +1,6 @@
 baseURL = 'https://cyber.storme.no/'
 languageCode = 'en-us'
-title = '🛡️ Cyber-OT | 🤖 AI | ⚡ Energy | 📚 Books'
+title = '[storm]'
 theme = "gokarna"
 
 # Automatically generate robots.txt
@@ -44,10 +44,10 @@ enableRobotsTXT = true
   avatarURL = "/images/avatar.png"
 
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-s"
+  avatarSize = "size-l"
 
   # Description to display on homepage
-  description = "Sky above, sand below & peace within"
+  description = "🛡️ Defend OT, 🤖 embrace AI, ⚡ harness energy, 📚 and inspire through literature."
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#008080"
