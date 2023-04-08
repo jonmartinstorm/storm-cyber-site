@@ -5,6 +5,8 @@ draft: false
 type: "post"
 ---
 
+This post is made by ChatGPT
+
 # Welcome to My Blog
 
 Hello, everyone! Welcome to my very first blog post. I'm excited to share my thoughts and experiences with you on this platform. In this blog, I'll be writing about a variety of topics that interest me, such as technology, personal development, and travel.
