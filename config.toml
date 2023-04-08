@@ -1,69 +1,132 @@
 baseURL = 'https://cyber.storme.no/'
 languageCode = 'en-us'
-title = '[storm]'
-theme = "gokarna"
+languageName = "English"
+title = "[storm]"
+theme = "LoveIt"
 enableEmoji = true
+
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
 
+# default amount of posts in each pages
+paginate = 12
+
+
+# Menu config
 [menu]
   [[menu.main]]
-    # Unique identifier for a menu item
-    identifier = "posts"
-
-    url = "/posts/"
-    
-    # You can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-
-    # You can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-
-    # Display name
-    name = "Posts"
-
-    # Weights are used to determine the ordering
     weight = 1
-
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
   [[menu.main]]
+    weight = 2
     identifier = "tags"
+    pre = ""
+    post = ""
     name = "Tags"
     url = "/tags/"
-    weight = 2
-    
+    title = ""
   [[menu.main]]
-    identifier = "github"
-    url = "https://github.com"
     weight = 3
-    
-    # We use feather-icons: https://feathericons.com/
-    pre = "<span data-feather='github'></span>"
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
 
 [params]
-  # URL for the avatar on homepage
-  avatarURL = "/images/avatar.png"
+  title = "[storm]"
+  # Home page config
 
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-l"
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # LoveIt NEW | 0.2.0 Header title config
+    [params.header.title]
+      # title name
+      name = "[storm]"
 
-  # Description to display on homepage
-  description = "🛡️ Defend OT, 🤖 embrace AI, ⚡ harness energy, 📚 and inspire through literature."
+  [params.home]
+    # LoveIt NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "[storm]"
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = "🛡️ Defend OT, 🤖 embrace AI, ⚡ harness energy, 📚 and inspire through literature."
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = "Maybe made with ChatGPT?"
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+    [params.social]
+      GitHub = "xxxx"
+      Linkedin = "xxxx"
+    [params.page]
+      # whether to enable lightgallery
+      lightgallery = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
 
-  # Accent color is displayed when you hover over <a> tags
-  accentColor = "#008080"
 
-  # You can use this to inject any HTML in the <head> tag.
-  # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
 
-  # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo"]
 
-  # If you want to display posts on the homepage, the options are
-  # "popular" (order posts by weight), "recent" (order posts by date)
-  # or "" (do not display, default option)
-  showPostsOnHomePage = "recent"
 
-  # Footer text
-  footer = "JM Storm"
+

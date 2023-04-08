@@ -2,7 +2,7 @@
 title: "My First Blog Post"
 date: 2023-04-08T23:00:59+02:00
 draft: false
-type: "post"
+author: "JM Storm"
 ---
 
 This post is made by ChatGPT

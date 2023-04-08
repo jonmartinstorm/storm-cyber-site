@@ -2,11 +2,18 @@
 title: "Embracing the Future: AI's Impact on Cybersecurity and Energy"
 date: 2023-04-08T23:38:17+02:00
 draft: false
-type: "post"
+author: "JM Storm"
+featuredImagePreview: "https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png"
+lightgallery: true
 ---
 
 This post is made by ChatGPT
 
+![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
+![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
+![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
+![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
+![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
 ![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
 
 # Embracing the Future: AI's Impact on Cybersecurity and Energy
