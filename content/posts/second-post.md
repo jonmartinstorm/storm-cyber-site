@@ -3,16 +3,17 @@ title: "Embracing the Future: AI's Impact on Cybersecurity and Energy"
 date: 2023-04-08T23:38:17+02:00
 draft: false
 type: "post"
-image: "https://cdn.midjourney.com/312ab9e3-106e-4171-ade8-400a3e1d23f4/grid_0.png"
 ---
 
 This post is made by ChatGPT
+
+![ChatGPT](https://cdn.midjourney.com/2014ff88-9ce5-4604-b56b-c62e1d4d1433/grid_0.png)
 
 # Embracing the Future: AI's Impact on Cybersecurity and Energy
 
 Welcome back to my blog! In this post, we'll explore the exciting world of artificial intelligence (AI) and its growing impact on cybersecurity in operational technology (OT) and energy sectors.
 
-## AI's Role in Cybersecurity for OT
+## :robot: AI's Role in Cybersecurity for OT
 
 As the digital landscape evolves, so do cyber threats targeting critical infrastructure and industrial control systems. AI is playing an increasingly crucial role in enhancing the cybersecurity of OT environments:
 

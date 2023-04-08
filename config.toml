@@ -2,6 +2,7 @@ baseURL = 'https://cyber.storme.no/'
 languageCode = 'en-us'
 title = '[storm]'
 theme = "gokarna"
+enableEmoji = true
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
